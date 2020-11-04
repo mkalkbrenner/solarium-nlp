@@ -1,0 +1,11 @@
+{
+    "name": "mkalkbrenner/solarium-nlp",
+    "type": "library",
+    "description": "Provides testing dependencies for the solarium library to test Solr's openNLP integration.",
+    "keywords": ["solr", "search", "php", "nlp"],
+    "homepage": "http://www.solarium-project.org",
+    "license": "Apache-2.0",
+    "require": {
+        "solarium/solarium": "^6.0"
+    }
+}
