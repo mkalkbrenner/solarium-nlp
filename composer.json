@@ -6,7 +6,7 @@
     "homepage": "http://www.solarium-project.org",
     "license": "Apache-2.0",
     "require": {
-        "php": "^7.2",
+        "php": "^7.2|^8.0",
         "solarium/solarium": "^6.0"
     },
     "autoload": {
