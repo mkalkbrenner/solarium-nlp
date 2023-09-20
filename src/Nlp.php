@@ -32,7 +32,7 @@ class Nlp
      *
      * @var string
      */
-    const VERSION = '0.1.1';
+    const VERSION = '0.1.4';
 
     /**
      * Check for an exact version.
@@ -105,7 +105,7 @@ class Nlp
    *
    * @throws \InvalidArgumentException
    */
-    public function getOpenNlpDemoModelPath(string $name, string $version = '1.5'): string
+    public function getOpenNlpDemoModelPath(string $name, string $version = 'combined'): string
     {
         $path = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'opennlp' . DIRECTORY_SEPARATOR . 'models-' . $version . DIRECTORY_SEPARATOR . $name;
         if (!file_exists($path) || !is_readable($path)) {
